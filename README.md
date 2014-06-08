@@ -12,3 +12,11 @@ How to configure the AR Drone to connect to a wifi hotspot
 *Change wifi mode of drone from transmitting
 to receiving. To do this, follow the instructions in the wifiToManaged.sh file
 
+---------------------------
+Verifying Connectivity
+-Use nmap to display hosts
+on network:
+nmap -sP -Pn 192.168.1.*
+
+
+
