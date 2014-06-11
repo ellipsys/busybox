@@ -3,7 +3,7 @@ busybox
 
 thinkcopter busybox
 
-How to configure the AR Drone to connect to a wifi hotspot
+#How to configure the AR Drone to connect to a wifi hotspot
 
 *Power on the drone and connect your computer to its wifi network
 
@@ -13,10 +13,20 @@ How to configure the AR Drone to connect to a wifi hotspot
 to receiving. To do this, follow the instructions in the wifiToManaged.sh file
 
 ---------------------------
-Verifying Connectivity
+#Verifying Connectivity
 -Use nmap to display hosts
 on network:
 nmap -sP -Pn 192.168.1.*
 
+----------------------------
+#MAC addresses of components:
 
+*drone
+'HWaddr':" 90:03:B7:38:1A:4D
+file at #/factory/mac_address.txt
+*laptop 14:2D:27:05:51:36
 
+#TO DO
+
+-Cross compile node for arm
+-connect drone to internet
