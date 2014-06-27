@@ -30,3 +30,7 @@ file at #/factory/mac_address.txt
 
 -Cross compile node for arm
 -connect drone to internet
+
+
+# IP address
+184.78.238.165
